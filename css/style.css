@@ -40,6 +40,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+img{
+    vertical-align: middle;
+}
 
 #header {
     width: 100%;
@@ -276,4 +279,85 @@ ul {
     text-align: center;
     letter-spacing: 0.1px;
     color: #737373;
+}
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+#advice{
+    padding: 131px 0;
+    background: #FAFAFA;
+}
+
+.advice-row {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.advice-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #252B42;
+    padding-top: 80px;
+}
+
+.advice-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding: 10px 320px 50px 320px;
+}
+.advice-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.advice-card__decs{
+    width: 238px;
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+}
+.advice-card__title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #252B42;
+padding: 30px 67px 15px 33px;
+}
+.advice-card__text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #737373;
+padding: 15px 40px 30px 30px;
+}
+.advice-card__media{
+    width: 100%;
+    height: 138px;
+}
+.advice-card__media>img{
+    width: 100%;
+    height: 100%;
 }
