@@ -569,7 +569,7 @@ line-height: 28px;
 text-align: center;
 letter-spacing: 0.2px;
 color: #FFFFFF;
-padding: 15px 23px;
+padding: 14px 23px;
 background: #FFA62B;
 border: 1px solid #E6E6E6;
 border-radius: 0px 5px 5px 0px;
@@ -579,3 +579,84 @@ right: 40px;
 }
 /* ////////////////////////////////// */
 /* ////////////////////////////////// */
+#contact{
+    padding: 131px 0;
+    background: #FAFAFA;
+}
+
+.contact-row {
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #252B42;
+    padding-top: 80px;
+}
+
+.contact-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding: 10px 320px 50px 320px;
+}
+
+.contact-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contact-item{
+    width: 327px;
+    height: 333px;
+    padding: 50px 40px;
+    background-color:#FFFFFF
+}
+.contact-item.active{
+    width: 329px;
+    height: 339px;
+    padding: 50px 40px;
+    background-color:#252B42
+}.contact-card__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-card__text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #252B42;
+padding: 15px 53px  ;
+}
+.contact-card__title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.1px;
+color: #252B42;
+}
