@@ -40,7 +40,8 @@ ul {
     margin: 0;
     padding: 0;
 }
-img{
+
+img {
     vertical-align: middle;
 }
 
@@ -143,7 +144,7 @@ img{
     margin-right: 15px;
 }
 
-.ser-list {
+.home-list {
     width: 100%;
     display: flex;
     align-items: center;
@@ -280,12 +281,13 @@ img{
     letter-spacing: 0.1px;
     color: #737373;
 }
+
 /* ////////////////////////////////// */
 /* ////////////////////////////////// */
 
-#advice{
-    padding: 131px 0;
+#advice {
     background: #FAFAFA;
+    padding-bottom: 80px;
 }
 
 .advice-row {
@@ -303,7 +305,7 @@ img{
     letter-spacing: 0.2px;
     text-align: center;
     color: #252B42;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 .advice-text {
@@ -317,7 +319,8 @@ img{
     color: #737373;
     padding: 10px 320px 50px 320px;
 }
-.advice-list{
+
+.advice-list {
     width: 100%;
     display: flex;
     align-items: center;
@@ -326,38 +329,253 @@ img{
     margin: 0;
     padding: 0;
 }
-.advice-card__decs{
+
+.advice-card__decs {
     width: 238px;
     height: 341px;
     display: flex;
     flex-direction: column;
     background-color: #FFFF;
 }
-.advice-card__title{
+
+.advice-card__title {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.1px;
-color: #252B42;
-padding: 30px 67px 15px 33px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    padding: 30px 67px 15px 33px;
 }
-.advice-card__text{
+
+.advice-card__text {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0.2px;
-color: #737373;
-padding: 15px 40px 30px 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding: 15px 40px 30px 30px;
 }
-.advice-card__media{
+
+.advice-card__media {
     width: 100%;
     height: 138px;
 }
-.advice-card__media>img{
+
+.advice-card__media>img {
     width: 100%;
     height: 100%;
 }
+
+/* ///////////////////////////////////////// */
+
+#services {
+    padding: 100px 0;
+    background: #FFFF;
+}
+
+.services-row {
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-head__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #252B42;
+    padding-top: 80px;
+    padding: 10px 320px 15px 320px;
+}
+
+.services-head__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding: 0px 320px 100px 320px;
+}
+
+.service-media {
+    width: 50%;
+    height: 100%;
+}
+
+.service-media>img {
+    width: 600px;
+    height: 442px;
+}
+
+.services-introduction {
+    width: 50%;
+    padding-left: 120px;
+}
+
+.services-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-right: 110px;
+}
+
+.services-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding-top: 25px;
+    padding-right: 110px;
+    padding-bottom: 25px;
+}
+
+.services-list__group {
+    width: 100%;
+    height: 100%;
+}
+
+.services-list {
+    position: relative;
+}
+
+.ser-list__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    padding: 25px 120px 5px 60px;
+}
+
+.ser-list__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    opacity: 0.7;
+    padding-left: 60px;
+}
+
+.ser-img__one {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 15%;
+    left: 10px;
+}
+
+.ser-img__too {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 65%;
+    left: 10px;
+}
+
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+#clients {
+    padding: 100px 0;
+    background-color:#FAFAFA
+}
+
+.clients-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 138px;
+}
+
+.clients-row {
+    width: 100%;
+    height: 77px;
+    background-color: #252B42;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.clients-card__item {
+    width: 986px;
+    margin: 0 auto;
+    background-color: #16697AFF;
+    border: 2px solid transparent;
+    padding: 33px 40px 33px 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+}
+
+.clients-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.input-group {
+    width: 60%;
+    height: 100%;
+}
+
+.input-group>input {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding: 15px 117px 15px 20px;
+    margin: 0;
+    border:1px solid transparent;
+    border-radius:5px;
+    position: relative;
+}
+.input-group>button{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+padding: 15px 23px;
+background: #FFA62B;
+border: 1px solid #E6E6E6;
+border-radius: 0px 5px 5px 0px;
+position: absolute;
+top:26%;
+right: 40px;
+}
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
